@@ -165,25 +165,3 @@ window.$$ = (function() {
 
     return $$
 }());
-
-var elem =
-    $$(['#main-wrapper', //{html: '123', css: 'background: red;'}
-        '  header > .search',
-        '  #content-wrapper',
-        '    main#content > article > p',
-        '    aside#sidebar.right',
-        '  footer'
-    ])
-console.dir(elem);
-
-var elem = $$(`
-#main-wrapper
-	header > #search
-	#content-wrapper
-        main#content > article > p
-        aside#sidebar.right
-    footer > #contact
-        .info `)
-
-console.log(elem);
-
