@@ -49,7 +49,7 @@ This plugin takes one argument as the input. The argument can either be a **stri
 
 In the second example, 2 spaces represent 1 level of indentation, however, you can use as many spaces as you want, as long as the rest of the lines are consistent with your initial choice. This plugin automatically detects *'number of spaces used as 1 level indentation'* of your choice.
 
-**Bizon.js**  returns a `HTMLDivElement`.
+**Bizon.js**  returns a `HTMLCollection`.
 
 ## Proposal
 I plan to implement the following functionality in the future:
